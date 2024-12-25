@@ -4,7 +4,7 @@ import io
 import os
 
 # Step 1: Set up your Google credentials
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'gcp_secret_2.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'gcp_secret_1.json'
 
 # Step 2: Create a Google Cloud Storage client
 client = storage.Client()
