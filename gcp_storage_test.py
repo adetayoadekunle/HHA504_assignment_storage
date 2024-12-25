@@ -10,7 +10,7 @@ os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'gcp_secret_1.json'
 client = storage.Client()
 
 # Step 3: Create a bucket or use an existing one
-bucket_name = 'hants-ahi-dummy-demo'  # Change this to your bucket name
+bucket_name = 'adetayo-ahi-dummy-demo'  # Change this to your bucket name
 bucket = client.bucket(bucket_name)
 
 
@@ -27,9 +27,11 @@ for file in files_upload:
     with open(file, 'rb') as f:
         file_byte_array = f.read()
     print(file)
+
     ## just keep file name 
     file = file.split("/")[-1]
     print('new file name: ', file)
+
     ## upload file to GCS
     try:
         blob = bucket.blob(file)
@@ -38,12 +40,11 @@ for file in files_upload:
     except Exception as e:
         print(f"Error: {e}")
 
-
-
 # Step 4: Create a fake image using Pillow
-image = Image.new('RGB', (100, 100), color = (73, 109, 137))
+image = Image.new('RGB', (100, 100), color = (255, 0, 0))
 image_byte_array = io.BytesIO()
 image.save(image_byte_array, format='PNG')
+
 
 # Step 5: Upload the fake image to Google Cloud Storage
 blob = bucket.blob('fake_image.png')

@@ -1,6 +1,6 @@
 # gcp-cloud-storage-demo
-this is a demo repo for 504 to show case how we can access GCP via python SDK 
+This is a demo repo for 504, showcasing GCP access via Python SDK
 
 ## things to remember: 
-- ignore your secret file by updating the .gitignore file
-- potentially create a virtual envirnment if your working locally on your own machine
+- ignore secret file by updating gitignore
+- create virtual environment when working on local machine
