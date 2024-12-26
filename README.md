@@ -29,6 +29,8 @@
 ![BACTERIA-1351146-0006](https://github.com/user-attachments/assets/ad7b1b07-133a-4ad2-a280-2fb187ad77a6)
 ![NORMAL-1110860-0001](https://github.com/user-attachments/assets/de0d7e05-7176-4cb3-89c5-98a6e255e770)
 ![NORMAL-1049278-0001](https://github.com/user-attachments/assets/6132390a-ead9-4d21-856b-398da90c8e54)
+![fake_image](https://github.com/user-attachments/assets/2bc00420-14f1-4da4-9c4c-307fb5cca39c)
+
 ## Documentation of the storage management and security features explored in Azure and GCP
 ## Azure:
 While looking at Microsoft Azure, I found the different access tiers interesting on how based on the data is accessed with hot being frequently accessed data, cool being infrequently accessed data, and archive for data that is rarely accessed. With the access policy, it shows the immutable blob storage which is when the data is not changed or deleted when it is saved.
