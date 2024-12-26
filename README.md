@@ -1,4 +1,5 @@
-[adetayo-data (2).txt](https://github.com/user-attachments/files/18254635/adetayo-data.2.txt)## File upload process in both Azure Blob Storage and GCP Cloud Storage using the GUI
+# Assignment: Working with Cloud Storage in Azure and GCP
+## File upload process in both Azure Blob Storage and GCP Cloud Storage using the GUI
 
 ## Azure:
 ### Creation of Azure storage account
@@ -25,3 +26,11 @@
 ![GCP Storage Test - Python Code](https://github.com/user-attachments/assets/f0484969-4bfc-4b80-84bc-7532c0f1395f)
 ![Files Uploaded Successfully to GCP Cloud Storage](https://github.com/user-attachments/assets/9982303d-c5cd-4cda-ba90-651a0791ad11)
 ## Documentation of the storage management and security features explored in Azure and GCP
+## Azure:
+While looking at Microsoft Azure, I found the different access tiers interesting on how based on the data is accessed with hot being frequently accessed data, cool being infrequently accessed data, and archive for data that is rarely accessed. With the access policy, it shows the immutable blob storage which is when the data is not changed or deleted when it is saved.
+![Azure Access Tier Storage](https://github.com/user-attachments/assets/d64fbacb-54cd-4f0f-86ed-438de40ff505)
+![Azure Test Data Container Access Policy](https://github.com/user-attachments/assets/549f0dd2-6e06-433e-a871-7e609f3ca94a)
+## GCP:
+There were different storage classes such as standard which is data you use frequently and coldline for data that is being used occasionally throughout the year. Regarding Identity and Access Management roles show bucket owner which gives full access to the storage.
+![GCP Assign Roles](https://github.com/user-attachments/assets/384407c0-5e92-4df8-8952-ff206b8b2295)
+![GCP Lifecycle Rule](https://github.com/user-attachments/assets/40c57f1c-8c1d-4a85-9398-8817b7a2f1be)
