@@ -25,12 +25,16 @@
 ## GCP:
 ![GCP Storage Test - Python Code](https://github.com/user-attachments/assets/f0484969-4bfc-4b80-84bc-7532c0f1395f)
 ![Files Uploaded Successfully to GCP Cloud Storage](https://github.com/user-attachments/assets/9982303d-c5cd-4cda-ba90-651a0791ad11)
+![BACTERIA-1602272-0001](https://github.com/user-attachments/assets/459bec99-2acc-44eb-ab0c-759db4ebf8f8)
+![BACTERIA-1351146-0006](https://github.com/user-attachments/assets/ad7b1b07-133a-4ad2-a280-2fb187ad77a6)
+![NORMAL-1110860-0001](https://github.com/user-attachments/assets/de0d7e05-7176-4cb3-89c5-98a6e255e770)
+![NORMAL-1049278-0001](https://github.com/user-attachments/assets/6132390a-ead9-4d21-856b-398da90c8e54)
 ## Documentation of the storage management and security features explored in Azure and GCP
 ## Azure:
 While looking at Microsoft Azure, I found the different access tiers interesting on how based on the data is accessed with hot being frequently accessed data, cool being infrequently accessed data, and archive for data that is rarely accessed. With the access policy, it shows the immutable blob storage which is when the data is not changed or deleted when it is saved.
 ![Azure Access Tier Storage](https://github.com/user-attachments/assets/d64fbacb-54cd-4f0f-86ed-438de40ff505)
 ![Azure Test Data Container Access Policy](https://github.com/user-attachments/assets/549f0dd2-6e06-433e-a871-7e609f3ca94a)
 ## GCP:
-There were different storage classes such as standard which is data you use frequently and coldline for data that is being used occasionally throughout the year. Regarding Identity and Access Management roles show bucket owner which gives full access to the storage.
+There were different storage classes such as standard which is data you use frequently and coldline which is data used occasionally throughout the year. Regarding Identity and Access Management roles show bucket owner which gives full access to the storage.
 ![GCP Assign Roles](https://github.com/user-attachments/assets/384407c0-5e92-4df8-8952-ff206b8b2295)
 ![GCP Lifecycle Rule](https://github.com/user-attachments/assets/40c57f1c-8c1d-4a85-9398-8817b7a2f1be)
