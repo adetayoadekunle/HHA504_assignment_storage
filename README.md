@@ -29,6 +29,7 @@
 ![BACTERIA-1351146-0006](https://github.com/user-attachments/assets/ad7b1b07-133a-4ad2-a280-2fb187ad77a6)
 ![NORMAL-1110860-0001](https://github.com/user-attachments/assets/de0d7e05-7176-4cb3-89c5-98a6e255e770)
 ![NORMAL-1049278-0001](https://github.com/user-attachments/assets/6132390a-ead9-4d21-856b-398da90c8e54)
+![Sample-Txt-File-for-HHA-504](https://github.com/user-attachments/assets/9673b59f-a6dc-4d43-962b-994ee14975d6)
 ![fake_image](https://github.com/user-attachments/assets/2bc00420-14f1-4da4-9c4c-307fb5cca39c)
 
 ## Documentation of the storage management and security features explored in Azure and GCP
